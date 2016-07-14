@@ -1,0 +1,15 @@
+-buildpath: \
+	osgi.annotation;version=6.0.1,\
+	osgi.core;version=6.0,\
+	osgi.cmpn;version=6.0,\
+	de.codecentric.versionsdemo.api;version=latest,\
+	de.codecentric.versionsdemo.bankserviceone;version=latest,\
+	de.codecentric.versionsdemo.bankservicetwo;version=latest
+
+-testpath: \
+	${junit}
+
+Bundle-Version: 0.0.0.${tstamp}
+Private-Package: de.codecentric.versionsdemo.bankclient
+Export-Package: de.codecentric.versionsdemo.api
+Bundle-Activator: de.codecentric.versionsdemo.bankclient.BankClient

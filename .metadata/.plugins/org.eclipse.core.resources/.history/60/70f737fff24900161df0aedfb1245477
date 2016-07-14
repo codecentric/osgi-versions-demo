@@ -1,0 +1,12 @@
+package de.codecentric.versionsdemo.bankservicetwo;
+
+import org.osgi.service.component.annotations.*;
+
+import de.codecentric.versionsdemo.api.AccountCalculator;
+
+
+public class AccountCalculatorImpl implements AccountCalculator{
+
+	// TODO: class provided by template
+
+}

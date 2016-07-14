@@ -1,0 +1,6 @@
+INDEX VERSION 1.127+F:\Development\docker\osgi-demo\versions\.metadata\.plugins\org.eclipse.jdt.core
+2420433333.index
+830083508.index
+2731271669.index
+4225953058.index
+3047266363.index

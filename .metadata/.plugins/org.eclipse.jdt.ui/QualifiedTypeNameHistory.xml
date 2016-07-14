@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.osgi.service.component.annotations.Activate"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="de.codecentric.versionsdemo.bankserviceone.AccountCaclulatorImpl"/>
+<fullyQualifiedTypeName name="javax.security.auth.login.AccountNotFoundException"/>
+<fullyQualifiedTypeName name="org.osgi.service.component.annotations.Reference"/>
+<fullyQualifiedTypeName name="de.codecentric.versionsdemo.bankservicetwo.AccountCalculatorTwoImpl"/>
+<fullyQualifiedTypeName name="org.osgi.service.component.annotations.Component"/>
+<fullyQualifiedTypeName name="de.codecentric.versionsdemo.api.AccountCalculator"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,26 @@
+package de.codecentric.versionsdemo.bankclient;
+
+import org.osgi.service.component.annotations.*;
+
+import de.codecentric.versionsdemo.api.AccountCalculator;
+import de.codecentric.versionsdemo.bankserviceone.AccountCaclulatorImpl;
+
+@Component
+public class Example {
+
+	private AccountCalculator accountCalculatorOne;
+	
+	
+	@Reference
+	protected void setAccountCalculatorOne(AccountCaclulatorImpl accountCaclulatorImpl){
+		this.accountCalculatorOne = accountCaclulatorImpl;
+	}
+		
+	
+	 @Activate
+	 public void activate() throws Exception {
+		 
+	 }
+	// TODO: class provided by template
+
+}

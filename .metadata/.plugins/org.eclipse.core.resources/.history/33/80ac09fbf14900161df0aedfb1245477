@@ -1,0 +1,10 @@
+package de.codecentric.versionsdemo.api;
+
+import org.osgi.service.component.annotations.*;
+
+@Component
+public interface AccountCalculator {
+
+	
+
+}

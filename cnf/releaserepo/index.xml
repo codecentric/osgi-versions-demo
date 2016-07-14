@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<repository increment="1468527597677" name="Release" xmlns="http://www.osgi.org/xmlns/repository/v1.0.0">
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="de.codecentric.versionsdemo.api"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" type="Version" value="1.0.0.201607142016"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="osgi.content" value="d2faca80f7b539ae349d5a975c43736a4edbf13b5df0c4de8da5b93e32b61aec"/>
+      <attribute name="url" value="de.codecentric.versionsdemo.api/de.codecentric.versionsdemo.api-1.0.0.jar"/>
+      <attribute name="size" type="Long" value="3243"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="osgi.wiring.bundle" value="de.codecentric.versionsdemo.api"/>
+      <attribute name="bundle-version" type="Version" value="1.0.0.201607142016"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="osgi.wiring.host" value="de.codecentric.versionsdemo.api"/>
+      <attribute name="bundle-version" type="Version" value="1.0.0.201607142016"/>
+    </capability>
+    <requirement namespace="osgi.ee">
+      <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.8))"/>
+    </requirement>
+  </resource>
+</repository>

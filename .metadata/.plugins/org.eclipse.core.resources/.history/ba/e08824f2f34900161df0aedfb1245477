@@ -1,0 +1,21 @@
+package de.codecentric.versionsdemo.bankclient;
+
+import org.osgi.service.component.annotations.*;
+
+@Component
+public class Example {
+
+	private AccountCalculator accountCalculatorOne;
+	
+	
+	@Reference
+	protected void set
+		
+	
+	 @Activate
+	 public void activate() throws Exception {
+		 
+	 }
+	// TODO: class provided by template
+
+}
