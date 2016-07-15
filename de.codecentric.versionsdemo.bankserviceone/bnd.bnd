@@ -7,7 +7,7 @@
 -testpath: \
 	${junit}
 
-Bundle-Version: 0.0.0.${tstamp}
-Private-Package: de.codecentric.versionsdemo.bankserviceone
+Bundle-Version: 1.0.0.${tstamp}
 Import-Package: *
-Export-Package: de.codecentric.versionsdemo.bankserviceone
+Export-Package: de.codecentric.versionsdemo.api,\
+                de.codecentric.versionsdemo.bankserviceone

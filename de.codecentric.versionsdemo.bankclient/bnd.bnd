@@ -9,6 +9,5 @@
 -testpath: \
 	${junit}
 
-Bundle-Version: 0.0.0.${tstamp}
+Bundle-Version: 1.0.0.${tstamp}
 Private-Package: de.codecentric.versionsdemo.bankclient
-Export-Package: de.codecentric.versionsdemo.api
